@@ -20,8 +20,10 @@ public class ApplicationTask2 {
 	
 }
 
+@FunctionalInterface
 interface Frog extends Amphibia {}
 
+@FunctionalInterface
 interface Amphibia {
 	void activity();
 }

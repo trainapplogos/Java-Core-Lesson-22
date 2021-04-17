@@ -17,6 +17,7 @@ public class ApplicationTask1 {
 	}
 }
 
+@FunctionalInterface
 interface Pet {
 	void voice(); 		
 }
